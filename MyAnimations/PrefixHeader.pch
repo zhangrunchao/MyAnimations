@@ -19,6 +19,7 @@
 #import "UIFont+Fonts.h"
 #import "POP.h"
 #import "UIImage+ImageEffects.h"
+#import "NSString+HexColors.h"
 #endif
 
 #endif /* PrefixHeader_pch */

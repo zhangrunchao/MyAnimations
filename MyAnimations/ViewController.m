@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "POPButtonViewController.h"
 #import "POPStrokeViewController.h"
+#import "MyLoadingViewController.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @property(nonatomic,strong) UITableView  *tableView;
@@ -24,7 +25,11 @@
     self.tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, Width, self.view.height)];
     self.tableView.dataSource = self;
     self.tableView.delegate   = self;
-    self.dataArray = @[@{@"name":@"POP按钮动画",@"class":[POPButtonViewController class]},@{@"name":@"POP stroke",@"class":[POPStrokeViewController class]}];
+    self.dataArray = @[
+                       @{@"name":@"POP按钮动画",@"class":[POPButtonViewController class]},
+                       @{@"name":@"POP stroke",@"class":[POPStrokeViewController class]},
+                       @{@"name":@"ball loading",@"class":[MyLoadingViewController class]}
+                       ];
     [self.view addSubview:self.tableView];
 }
 

@@ -10,4 +10,5 @@
 
 @interface BallLoadingView : UIView
 
+-(void)loading;
 @end

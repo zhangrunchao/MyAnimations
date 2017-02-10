@@ -7,16 +7,20 @@
 //
 
 #import "MyLoadingViewController.h"
-
+#import "BallLoadingView.h"
 @interface MyLoadingViewController ()
-
+@property(nonatomic,strong) BallLoadingView *loading;
 @end
 
 @implementation MyLoadingViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [@"f4f4f4" hexColor];
     // Do any additional setup after loading the view.
+    self.loading = [[BallLoadingView alloc] initWithFrame:CGRectMake(self.view.centerX - 100, self.view.centerY-50, 200, 100)];
+    [self.view addSubview:self.loading];
+    [self.loading loading];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		B505E2551E4B1941002684E1 /* MyLoadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B505E2541E4B1941002684E1 /* MyLoadingViewController.m */; };
 		B505E2581E4B1998002684E1 /* BallLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = B505E2571E4B1998002684E1 /* BallLoadingView.m */; };
+		B505E25B1E4D5B97002684E1 /* NSString+HexColors.m in Sources */ = {isa = PBXBuildFile; fileRef = B505E25A1E4D5B97002684E1 /* NSString+HexColors.m */; };
+		B505E25E1E4D5BF7002684E1 /* HexColors.m in Sources */ = {isa = PBXBuildFile; fileRef = B505E25D1E4D5BF7002684E1 /* HexColors.m */; };
 		B54F99DB1E1E20260031D04B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B54F99DA1E1E20260031D04B /* main.m */; };
 		B54F99DE1E1E20260031D04B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B54F99DD1E1E20260031D04B /* AppDelegate.m */; };
 		B54F99E11E1E20260031D04B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B54F99E01E1E20260031D04B /* ViewController.m */; };
@@ -21,7 +23,6 @@
 		B54F9A4B1E1E21290031D04B /* GCDQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = B54F9A451E1E21290031D04B /* GCDQueue.m */; };
 		B54F9A4C1E1E21290031D04B /* GCDSemaphore.m in Sources */ = {isa = PBXBuildFile; fileRef = B54F9A471E1E21290031D04B /* GCDSemaphore.m */; };
 		B54F9A4D1E1E21290031D04B /* GCDTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = B54F9A491E1E21290031D04B /* GCDTimer.m */; };
-		B54F9A511E1E21630031D04B /* HexColors.m in Sources */ = {isa = PBXBuildFile; fileRef = B54F9A501E1E21630031D04B /* HexColors.m */; };
 		B54F9A561E1E229B0031D04B /* UIFont+Fonts.m in Sources */ = {isa = PBXBuildFile; fileRef = B54F9A551E1E229B0031D04B /* UIFont+Fonts.m */; };
 		B54F9A5C1E1E24EE0031D04B /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = B54F9A591E1E24EE0031D04B /* UIImage+ImageEffects.m */; };
 		B54F9A5D1E1E24EE0031D04B /* UIImage+SolidColor.m in Sources */ = {isa = PBXBuildFile; fileRef = B54F9A5B1E1E24EE0031D04B /* UIImage+SolidColor.m */; };
@@ -58,6 +59,10 @@
 		B505E2541E4B1941002684E1 /* MyLoadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLoadingViewController.m; sourceTree = "<group>"; };
 		B505E2561E4B1998002684E1 /* BallLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BallLoadingView.h; sourceTree = "<group>"; };
 		B505E2571E4B1998002684E1 /* BallLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BallLoadingView.m; sourceTree = "<group>"; };
+		B505E2591E4D5B97002684E1 /* NSString+HexColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HexColors.h"; sourceTree = "<group>"; };
+		B505E25A1E4D5B97002684E1 /* NSString+HexColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HexColors.m"; sourceTree = "<group>"; };
+		B505E25C1E4D5BF7002684E1 /* HexColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HexColors.h; sourceTree = "<group>"; };
+		B505E25D1E4D5BF7002684E1 /* HexColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HexColors.m; sourceTree = "<group>"; };
 		B54F99D61E1E20260031D04B /* MyAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B54F99DA1E1E20260031D04B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B54F99DC1E1E20260031D04B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -81,8 +86,6 @@
 		B54F9A471E1E21290031D04B /* GCDSemaphore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDSemaphore.m; sourceTree = "<group>"; };
 		B54F9A481E1E21290031D04B /* GCDTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDTimer.h; sourceTree = "<group>"; };
 		B54F9A491E1E21290031D04B /* GCDTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDTimer.m; sourceTree = "<group>"; };
-		B54F9A4F1E1E21630031D04B /* HexColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HexColors.h; sourceTree = "<group>"; };
-		B54F9A501E1E21630031D04B /* HexColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HexColors.m; sourceTree = "<group>"; };
 		B54F9A521E1E21A90031D04B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		B54F9A541E1E229B0031D04B /* UIFont+Fonts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Fonts.h"; sourceTree = "<group>"; };
 		B54F9A551E1E229B0031D04B /* UIFont+Fonts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Fonts.m"; sourceTree = "<group>"; };
@@ -279,8 +282,10 @@
 		B54F9A4E1E1E21580031D04B /* HexColor */ = {
 			isa = PBXGroup;
 			children = (
-				B54F9A4F1E1E21630031D04B /* HexColors.h */,
-				B54F9A501E1E21630031D04B /* HexColors.m */,
+				B505E25C1E4D5BF7002684E1 /* HexColors.h */,
+				B505E25D1E4D5BF7002684E1 /* HexColors.m */,
+				B505E2591E4D5B97002684E1 /* NSString+HexColors.h */,
+				B505E25A1E4D5B97002684E1 /* NSString+HexColors.m */,
 			);
 			name = HexColor;
 			sourceTree = "<group>";
@@ -488,7 +493,6 @@
 				B54F9A5D1E1E24EE0031D04B /* UIImage+SolidColor.m in Sources */,
 				B555E6C81E27762B00B2CB94 /* POPPathViewController.m in Sources */,
 				B505E2551E4B1941002684E1 /* MyLoadingViewController.m in Sources */,
-				B54F9A511E1E21630031D04B /* HexColors.m in Sources */,
 				B54F99E11E1E20260031D04B /* ViewController.m in Sources */,
 				B54F9A4C1E1E21290031D04B /* GCDSemaphore.m in Sources */,
 				B54F9A561E1E229B0031D04B /* UIFont+Fonts.m in Sources */,
@@ -505,12 +509,14 @@
 				B54F9A3F1E1E21100031D04B /* CALayer+SetRect.m in Sources */,
 				B54F9B8F1E1F8EA10031D04B /* Math.m in Sources */,
 				B54F9A4A1E1E21290031D04B /* GCDGroup.m in Sources */,
+				B505E25B1E4D5B97002684E1 /* NSString+HexColors.m in Sources */,
 				B54F99DB1E1E20260031D04B /* main.m in Sources */,
 				B54F9B841E1E3B5B0031D04B /* POPDecayAnimation.mm in Sources */,
 				B54F9B7C1E1E3B5B0031D04B /* POPAnimationEvent.mm in Sources */,
 				B505E2581E4B1998002684E1 /* BallLoadingView.m in Sources */,
 				B54F9B8A1E1E3B5B0031D04B /* POPVector.mm in Sources */,
 				B54F9B8B1E1E3B5B0031D04B /* TransformationMatrix.cpp in Sources */,
+				B505E25E1E4D5BF7002684E1 /* HexColors.m in Sources */,
 				B54F9A5C1E1E24EE0031D04B /* UIImage+ImageEffects.m in Sources */,
 				B54F9B801E1E3B5B0031D04B /* POPAnimator.mm in Sources */,
 				B54F9A3E1E1E21100031D04B /* UIView+SetRect.m in Sources */,
