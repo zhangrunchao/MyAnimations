@@ -11,6 +11,8 @@
 		B505E2581E4B1998002684E1 /* BallLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = B505E2571E4B1998002684E1 /* BallLoadingView.m */; };
 		B505E25B1E4D5B97002684E1 /* NSString+HexColors.m in Sources */ = {isa = PBXBuildFile; fileRef = B505E25A1E4D5B97002684E1 /* NSString+HexColors.m */; };
 		B505E25E1E4D5BF7002684E1 /* HexColors.m in Sources */ = {isa = PBXBuildFile; fileRef = B505E25D1E4D5BF7002684E1 /* HexColors.m */; };
+		B505E2621E4DA0DE002684E1 /* SlideMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B505E2611E4DA0DE002684E1 /* SlideMenuViewController.m */; };
+		B505E2651E4DA562002684E1 /* SlideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = B505E2641E4DA562002684E1 /* SlideMenu.m */; };
 		B54F99DB1E1E20260031D04B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B54F99DA1E1E20260031D04B /* main.m */; };
 		B54F99DE1E1E20260031D04B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B54F99DD1E1E20260031D04B /* AppDelegate.m */; };
 		B54F99E11E1E20260031D04B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B54F99E01E1E20260031D04B /* ViewController.m */; };
@@ -52,6 +54,11 @@
 		B54F9B8F1E1F8EA10031D04B /* Math.m in Sources */ = {isa = PBXBuildFile; fileRef = B54F9B8E1E1F8EA10031D04B /* Math.m */; };
 		B555E6C81E27762B00B2CB94 /* POPPathViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B555E6C71E27762B00B2CB94 /* POPPathViewController.m */; };
 		B577A15B1E238E0E00A9F267 /* POPStrokeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B577A15A1E238E0E00A9F267 /* POPStrokeViewController.m */; };
+		B5BAE2F51E94DFCB002AEB3F /* DownloadButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5BAE2F41E94DFCB002AEB3F /* DownloadButtonViewController.m */; };
+		B5BAE2F81E94E015002AEB3F /* DownloadButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B5BAE2F71E94E015002AEB3F /* DownloadButton.m */; };
+		B5D0CEF41E77854E00696797 /* JumpStarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D0CEF31E77854E00696797 /* JumpStarViewController.m */; };
+		B5D0CEF71E7785F300696797 /* JumpStarView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D0CEF61E7785F300696797 /* JumpStarView.m */; };
+		B5F7BA6E1E56D4ED000C50BB /* SideMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F7BA6D1E56D4ED000C50BB /* SideMenuButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +70,10 @@
 		B505E25A1E4D5B97002684E1 /* NSString+HexColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HexColors.m"; sourceTree = "<group>"; };
 		B505E25C1E4D5BF7002684E1 /* HexColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HexColors.h; sourceTree = "<group>"; };
 		B505E25D1E4D5BF7002684E1 /* HexColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HexColors.m; sourceTree = "<group>"; };
+		B505E2601E4DA0DE002684E1 /* SlideMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideMenuViewController.h; sourceTree = "<group>"; };
+		B505E2611E4DA0DE002684E1 /* SlideMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideMenuViewController.m; sourceTree = "<group>"; };
+		B505E2631E4DA562002684E1 /* SlideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideMenu.h; sourceTree = "<group>"; };
+		B505E2641E4DA562002684E1 /* SlideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideMenu.m; sourceTree = "<group>"; };
 		B54F99D61E1E20260031D04B /* MyAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B54F99DA1E1E20260031D04B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B54F99DC1E1E20260031D04B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -157,6 +168,16 @@
 		B555E6C71E27762B00B2CB94 /* POPPathViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POPPathViewController.m; sourceTree = "<group>"; };
 		B577A1591E238E0E00A9F267 /* POPStrokeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPStrokeViewController.h; sourceTree = "<group>"; };
 		B577A15A1E238E0E00A9F267 /* POPStrokeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POPStrokeViewController.m; sourceTree = "<group>"; };
+		B5BAE2F31E94DFCB002AEB3F /* DownloadButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadButtonViewController.h; sourceTree = "<group>"; };
+		B5BAE2F41E94DFCB002AEB3F /* DownloadButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadButtonViewController.m; sourceTree = "<group>"; };
+		B5BAE2F61E94E015002AEB3F /* DownloadButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadButton.h; sourceTree = "<group>"; };
+		B5BAE2F71E94E015002AEB3F /* DownloadButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadButton.m; sourceTree = "<group>"; };
+		B5D0CEF21E77854D00696797 /* JumpStarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JumpStarViewController.h; sourceTree = "<group>"; };
+		B5D0CEF31E77854E00696797 /* JumpStarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JumpStarViewController.m; sourceTree = "<group>"; };
+		B5D0CEF51E7785F300696797 /* JumpStarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JumpStarView.h; sourceTree = "<group>"; };
+		B5D0CEF61E7785F300696797 /* JumpStarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JumpStarView.m; sourceTree = "<group>"; };
+		B5F7BA6C1E56D4ED000C50BB /* SideMenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideMenuButton.h; sourceTree = "<group>"; };
+		B5F7BA6D1E56D4ED000C50BB /* SideMenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideMenuButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +203,19 @@
 			name = MyLoadingView;
 			sourceTree = "<group>";
 		};
+		B505E25F1E4DA0BC002684E1 /* SlideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				B505E2601E4DA0DE002684E1 /* SlideMenuViewController.h */,
+				B505E2611E4DA0DE002684E1 /* SlideMenuViewController.m */,
+				B505E2631E4DA562002684E1 /* SlideMenu.h */,
+				B505E2641E4DA562002684E1 /* SlideMenu.m */,
+				B5F7BA6C1E56D4ED000C50BB /* SideMenuButton.h */,
+				B5F7BA6D1E56D4ED000C50BB /* SideMenuButton.m */,
+			);
+			name = SlideMenu;
+			sourceTree = "<group>";
+		};
 		B54F99CD1E1E20260031D04B = {
 			isa = PBXGroup;
 			children = (
@@ -202,6 +236,9 @@
 		B54F99D81E1E20260031D04B /* MyAnimations */ = {
 			isa = PBXGroup;
 			children = (
+				B5BAE2F21E94DFA5002AEB3F /* DownloadButton */,
+				B5D0CEF11E77850100696797 /* JumpStar */,
+				B505E25F1E4DA0BC002684E1 /* SlideMenu */,
 				B505E2521E4B1928002684E1 /* MyLoadingView */,
 				B555E6C51E27761800B2CB94 /* POPPathViewController */,
 				B577A1581E238A9200A9F267 /* POPStrokeAnimation */,
@@ -415,6 +452,28 @@
 			name = POPStrokeAnimation;
 			sourceTree = "<group>";
 		};
+		B5BAE2F21E94DFA5002AEB3F /* DownloadButton */ = {
+			isa = PBXGroup;
+			children = (
+				B5BAE2F31E94DFCB002AEB3F /* DownloadButtonViewController.h */,
+				B5BAE2F41E94DFCB002AEB3F /* DownloadButtonViewController.m */,
+				B5BAE2F61E94E015002AEB3F /* DownloadButton.h */,
+				B5BAE2F71E94E015002AEB3F /* DownloadButton.m */,
+			);
+			name = DownloadButton;
+			sourceTree = "<group>";
+		};
+		B5D0CEF11E77850100696797 /* JumpStar */ = {
+			isa = PBXGroup;
+			children = (
+				B5D0CEF21E77854D00696797 /* JumpStarViewController.h */,
+				B5D0CEF31E77854E00696797 /* JumpStarViewController.m */,
+				B5D0CEF51E7785F300696797 /* JumpStarView.h */,
+				B5D0CEF61E7785F300696797 /* JumpStarView.m */,
+			);
+			name = JumpStar;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -493,7 +552,9 @@
 				B54F9A5D1E1E24EE0031D04B /* UIImage+SolidColor.m in Sources */,
 				B555E6C81E27762B00B2CB94 /* POPPathViewController.m in Sources */,
 				B505E2551E4B1941002684E1 /* MyLoadingViewController.m in Sources */,
+				B505E2651E4DA562002684E1 /* SlideMenu.m in Sources */,
 				B54F99E11E1E20260031D04B /* ViewController.m in Sources */,
+				B5D0CEF41E77854E00696797 /* JumpStarViewController.m in Sources */,
 				B54F9A4C1E1E21290031D04B /* GCDSemaphore.m in Sources */,
 				B54F9A561E1E229B0031D04B /* UIFont+Fonts.m in Sources */,
 				B54F9B7B1E1E3B5B0031D04B /* POPAnimation.mm in Sources */,
@@ -504,6 +565,8 @@
 				B54F9A4B1E1E21290031D04B /* GCDQueue.m in Sources */,
 				B54F9B891E1E3B5B0031D04B /* POPSpringAnimation.mm in Sources */,
 				B54F9B811E1E3B5B0031D04B /* POPBasicAnimation.mm in Sources */,
+				B5BAE2F81E94E015002AEB3F /* DownloadButton.m in Sources */,
+				B505E2621E4DA0DE002684E1 /* SlideMenuViewController.m in Sources */,
 				B54F99DE1E1E20260031D04B /* AppDelegate.m in Sources */,
 				B54F9B7D1E1E3B5B0031D04B /* POPAnimationExtras.mm in Sources */,
 				B54F9A3F1E1E21100031D04B /* CALayer+SetRect.m in Sources */,
@@ -513,9 +576,12 @@
 				B54F99DB1E1E20260031D04B /* main.m in Sources */,
 				B54F9B841E1E3B5B0031D04B /* POPDecayAnimation.mm in Sources */,
 				B54F9B7C1E1E3B5B0031D04B /* POPAnimationEvent.mm in Sources */,
+				B5D0CEF71E7785F300696797 /* JumpStarView.m in Sources */,
+				B5BAE2F51E94DFCB002AEB3F /* DownloadButtonViewController.m in Sources */,
 				B505E2581E4B1998002684E1 /* BallLoadingView.m in Sources */,
 				B54F9B8A1E1E3B5B0031D04B /* POPVector.mm in Sources */,
 				B54F9B8B1E1E3B5B0031D04B /* TransformationMatrix.cpp in Sources */,
+				B5F7BA6E1E56D4ED000C50BB /* SideMenuButton.m in Sources */,
 				B505E25E1E4D5BF7002684E1 /* HexColors.m in Sources */,
 				B54F9A5C1E1E24EE0031D04B /* UIImage+ImageEffects.m in Sources */,
 				B54F9B801E1E3B5B0031D04B /* POPAnimator.mm in Sources */,

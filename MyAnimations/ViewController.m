@@ -10,6 +10,8 @@
 #import "POPButtonViewController.h"
 #import "POPStrokeViewController.h"
 #import "MyLoadingViewController.h"
+#import "JumpStarViewController.h"
+#import "DownloadButtonViewController.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @property(nonatomic,strong) UITableView  *tableView;
@@ -28,7 +30,9 @@
     self.dataArray = @[
                        @{@"name":@"POP按钮动画",@"class":[POPButtonViewController class]},
                        @{@"name":@"POP stroke",@"class":[POPStrokeViewController class]},
-                       @{@"name":@"ball loading",@"class":[MyLoadingViewController class]}
+                       @{@"name":@"ball loading",@"class":[MyLoadingViewController class]},
+                       @{@"name":@"jump Star",@"class":[JumpStarViewController class]},
+                       @{@"name":@"download动画",@"class":[DownloadButtonViewController class]},
                        ];
     [self.view addSubview:self.tableView];
 }
