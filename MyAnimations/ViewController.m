@@ -12,6 +12,10 @@
 #import "MyLoadingViewController.h"
 #import "JumpStarViewController.h"
 #import "DownloadButtonViewController.h"
+#import "ImageHandlerViewController.h"
+#import "FirstViewController.h"
+#import "WaveViewController.h"
+#import "SnowViewController.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @property(nonatomic,strong) UITableView  *tableView;
@@ -33,6 +37,11 @@
                        @{@"name":@"ball loading",@"class":[MyLoadingViewController class]},
                        @{@"name":@"jump Star",@"class":[JumpStarViewController class]},
                        @{@"name":@"download动画",@"class":[DownloadButtonViewController class]},
+                       @{@"name":@"图像处理（未完成）",@"class":[ImageHandlerViewController class]},
+                       @{@"name":@"转场动画",@"class":[FirstViewController class]},
+                       @{@"name":@"重复动画",@"class":[WaveViewController class]},
+                       @{@"name":@"雪花动画",@"class":[SnowViewController class]},
+
                        ];
     [self.view addSubview:self.tableView];
 }

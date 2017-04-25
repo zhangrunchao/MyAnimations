@@ -191,13 +191,6 @@
     [layer addAnimation:anim forKey:nil];
     
     
-    
-    
-    
-    
-    
-    
-    
 }
 
 /*

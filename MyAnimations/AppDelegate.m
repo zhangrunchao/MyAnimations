@@ -27,6 +27,53 @@
     [self.window makeKeyAndVisible];
     
     
+    CAShapeLayer *maskLayer = [CAShapeLayer layer];
+    maskLayer.contents = (id)[[UIImage imageNamed:@"logo"] CGImage];
+    maskLayer.position = nav.view.center;
+    maskLayer.bounds = CGRectMake(0, 0, 60, 60);
+    nav.view.layer.mask = maskLayer;
+    
+    
+    UIView *maskBackView = [[UIView alloc] initWithFrame:nav.view.bounds];
+    maskBackView.backgroundColor = [UIColor whiteColor];
+    [nav.view addSubview:maskBackView];
+    [nav.view bringSubviewToFront:maskBackView];
+    
+    
+    
+    CAKeyframeAnimation *keyAnim = [CAKeyframeAnimation animationWithKeyPath:@"bounds"];
+    keyAnim.values = @[[NSValue valueWithCGRect:maskLayer.bounds],[NSValue valueWithCGRect:CGRectMake(0, 0, 50, 50)],[NSValue valueWithCGRect:CGRectMake(0, 0, 2000, 2000)]];
+    keyAnim.keyTimes = @[@(0),@(0.5),@(1)];
+    keyAnim.duration = 1;
+    keyAnim.beginTime = CACurrentMediaTime() + 1;
+    keyAnim.timingFunctions = @[[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut],[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseOut],[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseOut]];
+    keyAnim.removedOnCompletion = NO;
+    keyAnim.fillMode = kCAFillModeForwards;
+    [nav.view.layer.mask addAnimation:keyAnim forKey:@"anim"];
+    
+    [UIView animateWithDuration:0.1 delay:1.35 options:UIViewAnimationOptionCurveEaseIn animations:^{
+        maskBackView.alpha = 0;
+     
+    } completion:^(BOOL finished) {
+        [maskBackView removeFromSuperview];
+
+    }];
+    
+    
+    [UIView animateWithDuration:0.25 delay:1.3 options:UIViewAnimationOptionCurveEaseIn animations:^{
+        nav.view.transform = CGAffineTransformMakeScale(1.05, 1.05);
+        
+    } completion:^(BOOL finished) {
+
+        [UIView animateWithDuration:0.3 delay:0 options:UIViewAnimationOptionCurveEaseIn animations:^{
+        
+            nav.view.transform = CGAffineTransformIdentity;
+
+        } completion:^(BOOL finished) {
+            nav.view.layer.mask = nil;
+
+        }];
+    }];
     
     return YES;
 }
